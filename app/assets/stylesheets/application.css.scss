@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-family: 'Sirin Stencil', cursive;
+    font-family: 'Varela Round', sans-serif;
 }
 
 // Background Gradient
@@ -41,6 +41,11 @@ p {
 // Nav Styles
 .navbar {
     border: none;
+}
+
+.navbar-brand {
+    font-family: 'Sirin Stencil', sans-serif;
+    font-weight: 800;
 }
 
 .navbar-default .navbar-brand,
