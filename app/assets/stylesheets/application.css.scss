@@ -17,6 +17,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// Typography Styles
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Varela Round', sans-serif;
 }
@@ -25,6 +26,7 @@ p {
     font-family: 'Sirin Stencil', cursive;
 }
 
+// Background Gradient
 .navbar, .home-callout {
     //gradient from uigradients.com/#AzurLane
     background: #7F7FD5;  /* fallback for old browsers */
@@ -34,28 +36,21 @@ p {
 
 }
 
+// Nav Styles
 .navbar {
     border: none;
 }
 
-.navbar-default .navbar-brand {
-    color: white;
-}
-
-.navbar-default .navbar-brand:hover {
-    color: white;
-    opacity: 0.6;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: white;
+    &:hover {
+        color: white;
+        opacity: 0.75;
+    }
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: white;
-    opacity: 0.6;
-}
-
+// Home Page Styles
 .home-callout {
     color: white;
     margin-top: -20px;
